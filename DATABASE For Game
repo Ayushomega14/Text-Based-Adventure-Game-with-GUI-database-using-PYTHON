@@ -1,4 +1,4 @@
--- COPY PASTE THIS ON MYSQL
+-- COPY PASTE THIS ON THE MYSQL
 create database game_database;
 use game_database;
 
