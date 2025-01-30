@@ -8,7 +8,7 @@ CREATE TABLE Characters (
     name TEXT NOT NULL
 );
 
--- Insert five characters
+-- Insert Any five characters
 INSERT INTO Characters (character_id ,name) VALUES
 (1, 'WARRIOR'),
 (2, 'MAGE'),
