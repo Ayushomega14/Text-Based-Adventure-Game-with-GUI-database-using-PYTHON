@@ -24,7 +24,7 @@ CREATE TABLE Monsters (
     description TEXT
 );
 
--- Insert five monsters
+-- Insert Any five monsters
 INSERT INTO Monsters (monster_id, name, health, description) VALUES
 (21, 'Goblin', 30, 'A small, green creature'),
 (22, 'Orc', 50, 'A strong and aggressive humanoid'),
