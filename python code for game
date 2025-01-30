@@ -24,7 +24,7 @@ inventory = []
 # Initialize room data
 current_room = 0
 
-# Function to fetch character names from the database
+# This is a Function to fetch character names from the database
 def fetch_characters():
     cursor.execute("SELECT name FROM Characters")
     character_names = cursor.fetchall()
