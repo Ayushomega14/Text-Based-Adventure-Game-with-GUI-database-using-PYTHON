@@ -93,7 +93,7 @@ def start_game():
     fetch_characters()
     window.after(2000, generate_random_room)
 
-# Function to update the health bar
+# This is a Function to update the health bar
 def update_health_bar():
     health_var.set(player["health"])
 
