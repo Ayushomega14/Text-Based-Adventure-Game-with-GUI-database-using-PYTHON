@@ -49,7 +49,7 @@ def display_inventory():
         inventory_text.insert(tk.END, item[0] + "\n")
     inventory_text.config(state=tk.DISABLED)
 
-# Function to simulate a monster encounter
+# This is a Function to simulate a monster encounter
 def encounter_monster():
     monster = random.choice(fetch_monsters())
     message_label.config(text=f"A wild {monster['name']} appears!")
