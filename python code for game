@@ -55,7 +55,7 @@ def encounter_monster():
     message_label.config(text=f"A wild {monster['name']} appears!")
     fight_button.config(state=tk.NORMAL, command=lambda: fight_monster(monster))
 
-# Function to simulate a fight with a monster
+# This is a Function to simulate a fight with a monster
 def fight_monster(monster):
     player_damage = random.randint(10, 20)
     monster_damage = random.randint(5, 15)
