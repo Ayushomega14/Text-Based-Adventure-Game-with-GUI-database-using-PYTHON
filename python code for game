@@ -97,7 +97,7 @@ def start_game():
 def update_health_bar():
     health_var.set(player["health"])
 
-# Function to restore health using health items
+# This is a Function to restore health using health items
 def restore_health():
     # Retrieve a health-restoring item from the database
     cursor.execute("SELECT name, healing_power FROM HealthItems WHERE owner_id = (SELECT character_id FROM Characters WHERE name = %s) ORDER BY RAND() LIMIT 1", (player["name"],))
