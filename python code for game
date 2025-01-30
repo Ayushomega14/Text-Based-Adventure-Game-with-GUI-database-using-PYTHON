@@ -32,7 +32,7 @@ def fetch_characters():
     for name in character_names:
         character_listbox.insert(tk.END, name[0])
 
-# Function to fetch monsters from the database
+# This is a Function to fetch monsters from the database
 def fetch_monsters():
     cursor.execute("SELECT name, health, description FROM Monsters")
     monsters = cursor.fetchall()
