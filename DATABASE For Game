@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS HealthItems (
     FOREIGN KEY (owner_id) REFERENCES Characters(character_id)
 );
 
--- Insert 10 health items associated with characters
+-- Insert Any 10 health items associated with characters
 INSERT INTO HealthItems (item_id, name, healing_power, owner_id) VALUES
 (31, 'Health Potion', 20, 1),
 (32, 'Herbal Elixir', 15, 2),
