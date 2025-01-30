@@ -86,7 +86,7 @@ def generate_random_room():
     room_description.config(text=rooms[current_room]["description"])
     encounter_monster_button.config(state=tk.NORMAL)
 
-# Function to handle character name entry and start the game
+# This is a Function to handle character name entry and start the game
 def start_game():
     player_name = name_entry.get()
     player["name"] = player_name
