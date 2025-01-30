@@ -38,7 +38,7 @@ def fetch_monsters():
     monsters = cursor.fetchall()
     return [{"name": monster[0], "health": monster[1], "description": monster[2]} for monster in monsters]
 
-# Function to display selected character's inventory
+# This is a Function to display selected character's inventory
 def display_inventory():
     selected_character = character_listbox.get(tk.ACTIVE)
     cursor.execute("SELECT name FROM InventoryItems WHERE owner_id = (SELECT character_id FROM Characters WHERE name = %s)", (selected_character,))
