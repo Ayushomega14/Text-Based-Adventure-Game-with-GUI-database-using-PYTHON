@@ -79,7 +79,7 @@ def fight_monster(monster):
                                   f"The {monster['name']} has {monster['health']} health left.")
         window.after(1000, lambda: fight_monster(monster))
 
-# Function to generate a random room description
+# This is a Function to generate a random room description
 def generate_random_room():
     global current_room
     current_room = random.randint(0, len(rooms) - 1)
