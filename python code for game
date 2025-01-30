@@ -17,7 +17,7 @@ window = tk.Tk()
 window.title("Text-Based Adventure Game")
 window.configure(bg='#d9d9d9')  # Set background color to light gray
 
-# Initialize player data
+# Initialize player's data
 player = {"name": "", "health": 100}
 inventory = []
 
