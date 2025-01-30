@@ -43,7 +43,7 @@ CREATE TABLE InventoryItems (
     FOREIGN KEY (monster_id) REFERENCES Monsters (monster_id)
 );
 
--- Insert five inventory items with types and monster_id
+-- Insert Any five inventory items with types and monster_id
 INSERT INTO InventoryItems (item_id, name, type, owner_id, monster_id) VALUES
 (11, 'Sword', 'Weapon', 1, 23),
 (12, 'Daggers', 'Weapon', 1, 21),
