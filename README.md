@@ -115,6 +115,7 @@ python game/main.py
 ---
 
 ## Screenshots
+<<<<<<< HEAD
 ### Initial GUI screenshot
 ![Initial GUI](Assets\Initial GUI.png)
 
@@ -124,6 +125,16 @@ python game/main.py
 
 ### End Battle / Dead Scenario
 ![End Battle](Assets\Dead Scenario.png)
+=======
+### Character Creation Screen
+![Character Creation](assets/character_creation.png)
+
+### Game Exploration
+![Exploration](assets/exploration.png)
+
+### Battle System
+![Combat](assets/combat.png)
+>>>>>>> e1ac732107b8f621e41c680c30cedd0cd2c7efdf
 
 ---
 
