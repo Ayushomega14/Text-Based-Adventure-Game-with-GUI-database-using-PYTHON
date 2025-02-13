@@ -118,6 +118,7 @@ python game/main.py
 
 ### Initial GUI screenshot
 ![Initial GUI](Assets\Initial GUI.png)
+![Uploading Screenshot 2025-02-13 212325.png…]()
 
 ### Game Fight
 ![Fight 1](Assets\Fighting 1.png)
