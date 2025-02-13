@@ -117,15 +117,14 @@ python game/main.py
 ## Screenshots
 
 ### Initial GUI screenshot
-![Initial GUI](Assets\Initial GUI.png)
-![Uploading Screenshot 2025-02-13 212325.png…]()
+![Image](https://github.com/user-attachments/assets/64c80893-8696-4c4c-bdc8-cf4aea5f3384)
 
 ### Game Fight
-![Fight 1](Assets\Fighting 1.png)
-![Fight 2](Assets\Fighting 2.png)
+![Image](https://github.com/user-attachments/assets/1187dfe4-8165-47a8-862d-87c49c441f31)
+![Image](https://github.com/user-attachments/assets/99f3d858-fb85-4294-9120-3973a50dddfe)
 
 ### End Battle / Dead Scenario
-![End Battle](Assets\Dead Scenario.png)
+![Image](https://github.com/user-attachments/assets/6af1a906-12a0-4e59-9679-f7b058d54025)
 =======
 
 ---
