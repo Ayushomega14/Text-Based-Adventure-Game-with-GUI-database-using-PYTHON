@@ -7,7 +7,7 @@ import random
 conn = mysql.connector.connect(
     host="Localhost",
     user="root",
-    password="your_password",
+    password="your_passwor",
     database="game_database"
 )
 cursor = conn.cursor()
